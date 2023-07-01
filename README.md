@@ -26,8 +26,6 @@ This desktop application shows the login process and loading the data from datab
 
 ## [Implementation](https://github.com/af4092/Login-Load-Data-Swing-Desktop-Application/tree/main/Login/src)
 
-- Following is a complete example that demonstrates connecting to a database, executing a simple query, and processing the query result with JDBC. The program connects to a local MySQL database and displays the students whose last name is Smith.
-
 - Demo Run, which shows the main Login view. In the UI User name and Password is entered, and if Username and Password matches window displays "Login Successful" message, otherwise it displays "Wrong Password" message:
 
 ![image](https://user-images.githubusercontent.com/24220136/223287669-af34fd7d-7635-4454-b724-7d02d21e0c28.png)
@@ -76,7 +74,7 @@ This desktop application shows the login process and loading the data from datab
 
   - The `Exit` button (btnExit) terminates the application by calling `System.exit()`.
 
-- The following Java code demonstrates a simple `JDBC` (Java Database Connectivity) program. 
+- Following is a complete example that demonstrates `JDBC` (Java Database Connectivity) connecting to a database, executing a simple query, and processing the query result with JDBC. The program connects to a local MySQL database and displays the students whose last name is Smith.
 
   - The code imports the necessary classes for JDBC and SQL operations.
 
