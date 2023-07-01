@@ -100,7 +100,7 @@ public class EmployeeInfo extends JFrame {
 				
 				try {
 					Class.forName("com.mysql.cj.jdbc.Driver");
-					Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/world","root","2207");
+					Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/world","root","PASSWORD");
 					Statement stmt = con.createStatement();
 					String query = "select * from city";
 					ResultSet rs = stmt.executeQuery(query);
@@ -211,7 +211,7 @@ public class EmployeeInfo extends JFrame {
 				
 				try {
 					Class.forName("com.mysql.cj.jdbc.Driver");
-					Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/world","root","2207");
+					Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/world","root","PASSWORD");
 					String query = "insert into city" + "(ID, Name, CountryCode, District, Population)" + "values('','','','','')";
 					PreparedStatement pst = con.prepareStatement(query);
 					
