@@ -76,7 +76,7 @@ public class Login extends JFrame {
 				try{
 					Class.forName("com.mysql.cj.jdbc.Driver");
 					//test -> is the schema name in the database
-					Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","2207");
+					Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","PASSWORD");
 					Statement stmt = con.createStatement();
 					//tblogin -> is the table inside the 'test' schema, and 'UerName' -> is the column name
 					// inside the 'tbLogin' table. 'Password' -> is also column name inside the 'tbLogin' table
