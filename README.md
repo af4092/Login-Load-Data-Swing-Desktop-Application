@@ -26,7 +26,8 @@ This desktop application shows the login process and loading the data from datab
 
 - Following is a complete example that demonstrates connecting to a database, executing a simple query, and processing the query result with JDBC. The program connects to a local MySQL database and displays the students whose last name is Smith.
 
-- Demo Run 
+- Demo Run, which shows the main Login view. In the UI User name and Password is entered, and if 
+
 ![image](https://user-images.githubusercontent.com/24220136/223287669-af34fd7d-7635-4454-b724-7d02d21e0c28.png)
 
 ![image](https://user-images.githubusercontent.com/24220136/223287701-7dfd2f44-3732-4115-8960-800fd9f44e02.png)
