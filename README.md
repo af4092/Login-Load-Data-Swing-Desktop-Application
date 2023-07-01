@@ -1,4 +1,4 @@
-# Login-Load-Data
+# Login-Load-Data-Swing-Desktop-Application
 This desktop application shows the login process and loading the data from database
 
 ![image](https://user-images.githubusercontent.com/24220136/223287669-af34fd7d-7635-4454-b724-7d02d21e0c28.png)
