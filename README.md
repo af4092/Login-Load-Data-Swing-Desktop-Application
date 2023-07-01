@@ -82,7 +82,7 @@ This desktop application shows the login process and loading the data from datab
 
   - The code loads the JDBC driver by calling Class.forName(`com.mysql.jdbc.Driver`). This step is necessary to load the driver class for the specific database you are connecting to. In this case, it loads the MySQL JDBC driver.
 
-  - It establishes a connection to a MySQL database using DriverManager.getConnection. The connection URL specifies the database location (jdbc:mysql://localhost/javabook), the username (scott), and the password (tiger).
+  - It establishes a connection to a MySQL database using DriverManager.getConnection. The connection URL specifies the database location (`jdbc:mysql://localhost/javabook`), the username (scott), and the password (tiger).
 
   - After successfully connecting to the database, it prints "Database connected" to the console.
 
@@ -94,7 +94,7 @@ This desktop application shows the login process and loading the data from datab
 
   - The code iterates through the result set using a while loop and retrieves the values of the columns for each row. It then prints the student names (values of firstName, mi, and lastName) to the console.
 
-  - Finally, the code closes the database connection using connection.close().
+  - Finally, the code closes the database connection using `connection.close()`.
     
 ```
  import java.sql.*;
