@@ -1,6 +1,13 @@
 # Login-Load-Data-Swing-Desktop-Application
 This desktop application shows the login process and loading the data from database
 
+## [Java JDBC API](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/)
+
+- The Java Database Connectivity (JDBC) API provides universal data access from the Java programming language. Using the JDBC API, you can access virtually any data source, from relational databases to spreadsheets and flat files. JDBC technology also provides a common base on which tools and alternate interfaces can be built.
+- The JDBC API is comprised of two packages:
+  - java.sql
+  - javax.sql
+
 ## JDBC is the Java API for accessing relational database.
 
 - The Java API for developing Java database applications is called JDBC. JDBC is the trademarked name of a Java API that supports Java programs that access relational databases. JDBC is not an acronym, but it is often thought to stand for Java Database Connectivity. 
