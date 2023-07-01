@@ -124,13 +124,11 @@ public class EmployeeInfo extends JFrame {
 					}
 					stmt.close();
 					con.close();
-					
-					
+						
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
-				
 			
 			}
 		});
@@ -143,7 +141,6 @@ public class EmployeeInfo extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				
 				table.setModel(new DefaultTableModel());
-				
 			}
 		});
 		btnClear.setFont(new Font("Tahoma", Font.BOLD, 18));
@@ -229,14 +226,10 @@ public class EmployeeInfo extends JFrame {
 					JOptionPane.showMessageDialog(null, "Data Saved");
 					
 					pst.close();
-					
-					
-					
-					
+	
 				}catch (Exception e2) {
 					e2.printStackTrace();
 				}
-				
 			}
 		});
 		btnSave.setFont(new Font("Tahoma", Font.BOLD, 18));
@@ -248,7 +241,6 @@ public class EmployeeInfo extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				
 				System.exit(1);
-				
 			}
 		});
 		btnExit.setFont(new Font("Tahoma", Font.BOLD, 18));
