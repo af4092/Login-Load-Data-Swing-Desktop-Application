@@ -14,13 +14,19 @@ This desktop application shows the login process and loading the data from datab
 
 - JDBC provides Java programmers with a uniform interface for accessing and manipulating relational databases. Using the JDBC API, applications written in the Java programming language can execute SQL statements, retrieve results, present data in a user-friendly interface, and propagate changes back to the database. The JDBC API can also be used to interact with multiple data sources in a distributed, heterogeneous environment.
 
-![image](https://github.com/af4092/Login-Load-Data/assets/24220136/95edfd62-ded5-4da3-9b41-afe332c6d5bb)
+<p align="center">
+  <img src="https://github.com/af4092/Login-Load-Data/assets/24220136/95edfd62-ded5-4da3-9b41-afe332c6d5bb" alt="Image">
+</p>
 
 - The JDBC API is a Java application program interface to generic SQL databases that enables Java developers to develop DBMS-independent Java applications using a uniform interface.
 
-![image](https://github.com/af4092/Login-Load-Data/assets/24220136/a9e05456-954e-4c74-b9b2-d0e8d5864d8a)
+<p align="center">
+  <img src="https://github.com/af4092/Login-Load-Data/assets/24220136/a9e05456-954e-4c74-b9b2-d0e8d5864d8a" alt="Image">
+</p>
 
-![image](https://github.com/af4092/Login-Load-Data/assets/24220136/644bc12b-8e94-4492-9d20-f320d263353d)
+<p align="center">
+  <img src="https://github.com/af4092/Login-Load-Data/assets/24220136/644bc12b-8e94-4492-9d20-f320d263353d" alt="Image">
+</p>
 
 --------------------
 
@@ -28,11 +34,15 @@ This desktop application shows the login process and loading the data from datab
 
 - Demo Run, which shows the main Login view. In the UI User name and Password is entered, and if Username and Password matches window displays "Login Successful" message, otherwise it displays "Wrong Password" message:
 
-![image](https://user-images.githubusercontent.com/24220136/223287669-af34fd7d-7635-4454-b724-7d02d21e0c28.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/223287669-af34fd7d-7635-4454-b724-7d02d21e0c28.png" alt="Image">
+</p>
 
 - After successful login, on the left side of the Window we can save new information with the following parameters: Id, Name, Country Code, District and Population to DB table (MySQL). With `Clear` button we can easily clear any data from the DB and `Logout` button logouts to the main window. `Exit` button exits from the application.
 
-![image](https://user-images.githubusercontent.com/24220136/223287701-7dfd2f44-3732-4115-8960-800fd9f44e02.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/223287701-7dfd2f44-3732-4115-8960-800fd9f44e02.png" alt="Image">
+</p>
 
 - `Login.java` code explanation:
   
